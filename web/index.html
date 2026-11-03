@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#070d24"><title>NINJA RUSH 3D — Clima Dinâmico V3</title>
+<link rel="stylesheet" href="assets/css/game.css">
+</head>
+<body>
+<canvas id="game" aria-label="Jogo de corrida infinita 3D"></canvas><div id="vignette"></div><div id="flash"></div>
+<div id="hud"><div class="stats"><div class="scoreBlock"><small>PONTOS</small><strong id="score">00000</strong></div><div class="scoreBlock"><small>CRISTAIS</small><strong id="crystals" class="gems">◆ 0</strong></div></div><div class="sideHud"><button class="iconButton" id="pause" aria-label="Pausar jogo">Ⅱ</button><div id="life">♥♥♥</div></div></div>
+<div id="energyRow"><span>FOCO</span><div id="energyOuter"><div id="energyBar"></div></div><span id="energyValue">0%</span></div>
+<div id="note" aria-live="polite"></div><div id="weatherBadge">🌙 NOITE</div><div id="slipBadge">💧 ESCORREGANDO!</div>
+<div id="bottom"><div class="controls"><button class="gameBtn turbo" id="boost" data-action="boost" disabled aria-label="Ativar Foco"><span>⚡<small>FOCO</small></span></button></div></div>
+<div id="practiceBar" class="hide"><button id="restBtn" type="button">◉ RESPIRAR / REPOUSO</button><span>Modo treino • R repouso • T avança o clima</span></div>
+<div id="desktopHint">← → MOVER &nbsp; • &nbsp; ↑ PULAR &nbsp; • &nbsp; ↓ ROLAR &nbsp; • &nbsp; E FOCO</div>
+<div id="overlay"><div class="panel"><div class="eyebrow">UM NINJA. MILHARES DE MOVIMENTOS.</div><div class="logo">NINJA <em>RUSH</em></div><div class="sub">ENDLESS RUNNER · 3D</div><p class="description" id="overlayDesc">Corra de noite até o amanhecer. A chuva deixa o ninja pesado e as poças causam derrapagens! Use gestos na tela, sem setas; colete cristais para ativar o <b>FOCO</b>.</p><button class="play" id="start">▶ INICIAR CORRIDA</button><div><button class="practice" id="training" type="button">◉ TREINAR MOVIMENTOS (SEM OBSTÁCULOS)</button></div><div class="tips"><span class="tip">Deslize para os lados: faixa</span><span class="tip">Para cima: pular</span><span class="tip">Para baixo: rolar</span><span class="tip">⚡ Foco</span></div><div class="copyright">NINJA V3 · DIA / NOITE / CHUVA · POÇAS COM FÍSICA</div></div></div>
+<script src="assets/js/game.js"></script>
+</body></html>
