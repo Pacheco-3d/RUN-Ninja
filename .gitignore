@@ -1,0 +1,10 @@
+Unity6/Library/
+Unity6/Temp/
+Unity6/Obj/
+Unity6/Build/
+Unity6/Builds/
+Unity6/Logs/
+Unity6/UserSettings/
+*.csproj
+*.sln
+.DS_Store
